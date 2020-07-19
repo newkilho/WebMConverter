@@ -1,2 +1,2 @@
 # WebMConverter
- MP4 to WebM
+Convert video files to WebM
