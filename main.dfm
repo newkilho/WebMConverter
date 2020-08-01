@@ -66,6 +66,8 @@ object FrmWebMConverter: TFrmWebMConverter
     Width = 73
     Height = 17
     Caption = 'HighSpeed'
+    Checked = True
+    State = cbChecked
     TabOrder = 3
   end
   object PanelHeader: TPanel
