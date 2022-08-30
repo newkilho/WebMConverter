@@ -235,14 +235,12 @@ procedure TFrmWebMConverter.FormCreate(Sender: TObject);
 begin
   Application.Title := Caption;
 
-  CheckUpdate('http://down.kilho.net/update.php', 'WebMConvert');
+  //CheckUpdate('https://down.kilho.net/update.php', 'WebMConvert');
 
   ListViewWndProc_Org := ListView1.WindowProc;
   ListView1.WindowProc := ListViewWndProc;
 
   DragAcceptFiles(ListView1.Handle, True);
-
-  //AddFile('z:\win32\release\test.mp4');
 end;
 
 end.
