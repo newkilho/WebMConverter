@@ -3,7 +3,7 @@ program WebMConvert;
 uses
   Vcl.Forms,
   main in 'main.pas' {FrmWebMConverter},
-  K.Translate in 'D:\Component\KLib\K.Translate.pas';
+  K.Translate in 'D:\Component\Delphi\KLib\K.Translate.pas';
 
 {$R *.res}
 
